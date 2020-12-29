@@ -10,6 +10,7 @@ using namespace std;
 
 //Sorting fuction in c++
 int main(){
+    cout << "This is array." << endl;
     vector<int> v  {4,2,5,3,5,8,3};
     //Sort is the fuction that is used to sort and has a complexity of O(nlogn)
     sort(v.begin(),v.end());
@@ -17,11 +18,27 @@ int main(){
     for(auto a:v){
         cout << a << " ";
     }
+
+    cout << endl;
+
+
+    // ----------------------------------------------------------------------
+    cout << "This is dict." << endl;
     cout << endl;
     int a[] = {4,2,5,3,5,8,3};
     sort(a, a+7,greater<int>()) ;
     for(int i = 0;i < sizeof(a)/sizeof(a[0]) ; i++ ){
         cout << a[i] << " ";
     }
+
+    cout << endl;
+
+
+
+    // ----------------------------------------------------------------------
+    cout << "This is string." << endl;
+    string s = "akash";
+    sort(s.begin(), s.end());
+    cout << s;
 
 }

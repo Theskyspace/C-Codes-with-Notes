@@ -3,6 +3,10 @@
 #include<algorithm>
 using namespace std;
 
+//Standard ways of sortings
+//1. Inserstion sort-- easy.
+//2. Bubble sort. ---> followed by the inbuild fuction.
+
 // Sorting syntax
 // sort(starting point , Ending point , comparison operation(optional));
 

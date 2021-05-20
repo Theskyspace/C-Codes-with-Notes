@@ -98,5 +98,6 @@ void unorderedmapdemo(){
 }
 
 int main(){
+    vectorDemo();
     return 0;
 }
